@@ -1,0 +1,3 @@
+pyinstaller==6.3.0
+# No additional requirements needed - tkinter is built into Python
+# Add any future dependencies below:
