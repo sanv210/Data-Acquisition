@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Channel Information Schema",
+  "description": "JSON schema for the Channel Information page data",
+  "type": "object",
+  "required": ["analytical_group", "page", "channels"],
+  "properties": {
+    "analytical_group": {
+      "type": "string",
+      "description": "Selected analytical group name",
+      "examples": ["LAS 2023", "SS 2023", "LA 2021"]
+    },
+    "page": {
+      "type": "string",
+      "const": "channel_information",
+      "description": "Page identifier"
+    },
+    "channels": {
+      "type": "array",
+      "description": "Array of channel configurations",
+      "items": {
+        "type": "object",
+        "required": ["ele_name", "w_lengh", "seq", "w_no", "interval_element", "interval_value"],
+        "properties": {
+          "ele_name": {
+            "type": "string",
+            "description": "Element name/symbol for this channel"
+          },
+          "w_lengh": {
+            "type": "string",
+            "description": "Wavelength (numeric string with decimals)",
+            "pattern": "^[0-9]*\\.?[0-9]*\\+?[0-9]*$"
+          },
+          "seq": {
+            "type": "string",
+            "description": "Sequence number (1, 2, or 3)",
+            "pattern": "^[0-9]+$"
+          },
+          "w_no": {
+            "type": "string",
+            "description": "Wave number (can be empty)"
+          },
+          "interval_element": {
+            "type": "string",
+            "description": "Interval reference element"
+          },
+          "interval_value": {
+            "type": "string",
+            "description": "Interval value (numeric string with decimals)",
+            "pattern": "^[0-9]*\\.?[0-9]+$"
+          }
+        }
+      },
+      "minItems": 0
+    }
+  }
+}

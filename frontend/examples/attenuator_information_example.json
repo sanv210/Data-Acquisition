@@ -1,0 +1,33 @@
+{
+  "analytical_group": "LAS 2023",
+  "page": "attenuator_information",
+  "left_table": [
+    {"element": "FE", "ele_value": "273.0", "att_value": "77"},
+    {"element": "C", "ele_value": "193.0", "att_value": "49"},
+    {"element": "SI", "ele_value": "212.4", "att_value": "41"},
+    {"element": "MN", "ele_value": "293.3", "att_value": "40"},
+    {"element": "P", "ele_value": "178.3", "att_value": "81"},
+    {"element": "S", "ele_value": "180.7", "att_value": "71"},
+    {"element": "V", "ele_value": "311.0", "att_value": "44"},
+    {"element": "CR", "ele_value": "267.7", "att_value": "26"},
+    {"element": "CR", "ele_value": "298.9", "att_value": "0"},
+    {"element": "MO", "ele_value": "202.0", "att_value": "46"},
+    {"element": "MO", "ele_value": "277.5", "att_value": "0"},
+    {"element": "NI", "ele_value": "231.6", "att_value": "93"},
+    {"element": "NI", "ele_value": "227.7", "att_value": "0"},
+    {"element": "AL", "ele_value": "394.4", "att_value": "26"},
+    {"element": "CU", "ele_value": "224.2", "att_value": "61"},
+    {"element": "TI", "ele_value": "337.2", "att_value": "93"}
+  ],
+  "right_table": [
+    {"element": "W", "ele_value": "220.4", "att_value": "76"},
+    {"element": "B", "ele_value": "182.6", "att_value": "90"},
+    {"element": "NB", "ele_value": "319.5", "att_value": "54"},
+    {"element": "CA", "ele_value": "396.8", "att_value": "48"},
+    {"element": "CO", "ele_value": "258.0", "att_value": "47"},
+    {"element": "SN", "ele_value": "189.9", "att_value": "62"},
+    {"element": "N", "ele_value": "174.5+2", "att_value": "96"},
+    {"element": "PB", "ele_value": "405.7", "att_value": "82"},
+    {"element": "RH", "ele_value": "421.8", "att_value": "0"}
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "analytical_group": "LAS 2023",
+  "page": "element_information",
+  "ch_value": "22",
+  "elements": [
+    {
+      "ele_name": "Fe",
+      "analytical_range_min": ".00000",
+      "analytical_range_max": "100.00",
+      "asterisk": "*",
+      "chemic_ele": "Fe",
+      "element": "Fe"
+    },
+    {
+      "ele_name": "C",
+      "analytical_range_min": ".00000",
+      "analytical_range_max": "100.00",
+      "asterisk": "*",
+      "chemic_ele": "C",
+      "element": "C"
+    },
+    {
+      "ele_name": "Si",
+      "analytical_range_min": ".00000",
+      "analytical_range_max": "100.00",
+      "asterisk": "*",
+      "chemic_ele": "Si",
+      "element": "Si"
+    },
+    {
+      "ele_name": "Mn",
+      "analytical_range_min": ".00000",
+      "analytical_range_max": "100.00",
+      "asterisk": "*",
+      "chemic_ele": "Mn",
+      "element": "Mn"
+    },
+    {
+      "ele_name": "P",
+      "analytical_range_min": ".00000",
+      "analytical_range_max": "100.00",
+      "asterisk": "*",
+      "chemic_ele": "P",
+      "element": "P"
+    }
+  ]
+}

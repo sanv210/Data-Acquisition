@@ -1,0 +1,46 @@
+{
+  "analytical_group": "LAS 2023",
+  "page": "channel_information",
+  "channels": [
+    {
+      "ele_name": "Fe",
+      "w_lengh": "396.8",
+      "seq": "1",
+      "w_no": "",
+      "interval_element": "FE",
+      "interval_value": "273.0"
+    },
+    {
+      "ele_name": "C",
+      "w_lengh": "193.0",
+      "seq": "2",
+      "w_no": "",
+      "interval_element": "FE",
+      "interval_value": "273.0"
+    },
+    {
+      "ele_name": "Si",
+      "w_lengh": "212.4",
+      "seq": "2",
+      "w_no": "",
+      "interval_element": "FE",
+      "interval_value": "273.0"
+    },
+    {
+      "ele_name": "Mn",
+      "w_lengh": "293.3",
+      "seq": "2",
+      "w_no": "",
+      "interval_element": "FE",
+      "interval_value": "273.0"
+    },
+    {
+      "ele_name": "P",
+      "w_lengh": "178.3",
+      "seq": "1",
+      "w_no": "",
+      "interval_element": "FE",
+      "interval_value": "273.0"
+    }
+  ]
+}

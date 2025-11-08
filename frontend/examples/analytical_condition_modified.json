@@ -1,0 +1,41 @@
+{
+  "analytical_group": "SS 2023",
+  "analytical_method": "PDA + Integration",
+  "seq": {
+    "purge": {
+      "seq1": "5"
+    },
+    "source": {
+      "seq1": "Normal Spark",
+      "seq2": "Combined Spark",
+      "seq3": "3 Peak Spark",
+      "clean": "High Voltage Spark"
+    },
+    "preburn": {
+      "seq1": "150",
+      "seq2": "400",
+      "seq3": "50",
+      "clean": "Pulse"
+    },
+    "integ": {
+      "seq1": "350",
+      "seq2": "30",
+      "seq3": "10",
+      "clean": "Pulse"
+    },
+    "clean": {
+      "value": "5",
+      "unit": "Pulse"
+    }
+  },
+  "level_out_information": {
+    "monitor_element": {
+      "element": "C",
+      "value": "193.0",
+      "option1": "FE",
+      "option2": "Si"
+    },
+    "h_level_percent": ["10", "10", "5", "5", "0", "0", "0", "0", "0"],
+    "l_level_percent": ["15", "15", "5", "5", "0", "0", "0", "0", "0"]
+  }
+}

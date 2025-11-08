@@ -1,0 +1,41 @@
+{
+  "analytical_group": "LAS 2023",
+  "analytical_method": "integration Mode",
+  "seq": {
+    "purge": {
+      "seq1": "3"
+    },
+    "source": {
+      "seq1": "3 Peak Spark",
+      "seq2": "Normal Spark",
+      "seq3": "Lamp",
+      "clean": "Cleaning"
+    },
+    "preburn": {
+      "seq1": "100",
+      "seq2": "300",
+      "seq3": "0",
+      "clean": "Pulse"
+    },
+    "integ": {
+      "seq1": "300",
+      "seq2": "23",
+      "seq3": "0",
+      "clean": "Pulse"
+    },
+    "clean": {
+      "value": "0",
+      "unit": "Pulse"
+    }
+  },
+  "level_out_information": {
+    "monitor_element": {
+      "element": "FE",
+      "value": "273.0",
+      "option1": "None",
+      "option2": "None"
+    },
+    "h_level_percent": ["0", "0", "0", "0", "0", "0", "0", "0", "0"],
+    "l_level_percent": ["20", "20", "0", "0", "0", "0", "0", "0", "0"]
+  }
+}
