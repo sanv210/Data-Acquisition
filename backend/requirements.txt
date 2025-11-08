@@ -1,0 +1,14 @@
+
+# Core web framework
+fastapi
+
+# ASGI server (with standard extras)
+uvicorn[standard]
+
+# ORM and DB
+sqlalchemy
+mysql-connector-python
+
+# Load .env files
+python-dotenv
+

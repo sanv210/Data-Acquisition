@@ -439,37 +439,48 @@ class AnalyticalConditionPage:
         self.data_manager.save_analytical_condition(form_data)
     
     def on_upload_clicked(self):
-        """Handler for Upload button - Collects and prepares data for POST request"""
+        """Handler for Upload button - Uploads data to backend API"""
         try:
             # Collect all form data
             form_data = self.collect_form_data()
             
-            # Convert to JSON
+            # Convert to JSON for display
             json_data = json.dumps(form_data, indent=2)
             
-            # For now, just display the JSON (backend not ready)
+            # Display the JSON that will be sent
             print("\n" + "="*50)
-            print("JSON DATA TO BE SENT TO BACKEND:")
+            print("ANALYTICAL CONDITION - UPLOADING TO BACKEND:")
             print("="*50)
             print(json_data)
             print("="*50 + "\n")
             
-            # Show success message with preview
-            messagebox.showinfo(
-                "Upload Ready", 
-                f"Data collected successfully!\n\nJSON Preview:\n{json_data[:200]}...\n\n(Full JSON printed to console)\n\nReady for POST request to backend."
-            )
+            # Upload to backend API
+            response = self.data_manager.upload_analytical_condition(form_data)
             
-            # TODO: When backend is ready, uncomment this:
-            # import requests
-            # response = requests.post('http://your-backend-url/api/analytical-condition', json=form_data)
-            # if response.status_code == 200:
-            #     messagebox.showinfo("Success", "Data uploaded successfully!")
-            # else:
-            #     messagebox.showerror("Error", f"Upload failed: {response.status_code}")
+            # Show success message with API response
+            if response and 'records' in response:
+                created_record = response['records'][0]
+                record_id = created_record.get('id', 'N/A')
+                messagebox.showinfo(
+                    "Upload Successful",
+                    f"Analytical Condition uploaded successfully!\n\n"
+                    f"Record ID: {record_id}\n"
+                    f"Analytical Group: {self.selected_group}\n"
+                    f"Method: {form_data.get('analytical_method', 'N/A')}\n\n"
+                    f"Data saved to database."
+                )
+            else:
+                messagebox.showinfo(
+                    "Upload Complete",
+                    "Data uploaded successfully!"
+                )
             
         except Exception as e:
-            messagebox.showerror("Error", f"Failed to collect data: {str(e)}")
+            messagebox.showerror(
+                "Upload Failed", 
+                f"Failed to upload data to backend:\n\n{str(e)}\n\n"
+                f"Please ensure the backend server is running on http://localhost:8000"
+            )
     
     def on_ok_clicked(self):
         """Handler for OK button"""

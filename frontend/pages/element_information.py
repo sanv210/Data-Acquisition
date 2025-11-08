@@ -473,23 +473,45 @@ class ElementInformationPage:
         # TODO: Add to data manager when extended
     
     def on_upload_clicked(self):
-        """Handler for Upload button"""
+        """Handler for Upload button - Uploads data to backend API"""
         try:
             form_data = self.collect_form_data()
             json_data = json.dumps(form_data, indent=2)
             
             print("\n" + "="*50)
-            print("ELEMENT INFORMATION - JSON DATA:")
+            print("ELEMENT INFORMATION - UPLOADING TO BACKEND:")
             print("="*50)
             print(json_data)
             print("="*50 + "\n")
             
-            messagebox.showinfo(
-                "Upload Ready",
-                f"Element data collected successfully!\n\n{len(self.element_entries)} elements ready for upload.\n\n(Full JSON printed to console)"
-            )
+            # Upload to backend API
+            response = self.data_manager.upload_element_information(form_data)
+            
+            # Show success message with API response
+            if response and 'records' in response:
+                created_record = response['records'][0]
+                record_id = created_record.get('id', 'N/A')
+                element_count = len(form_data.get('elements', []))
+                messagebox.showinfo(
+                    "Upload Successful",
+                    f"Element Information uploaded successfully!\n\n"
+                    f"Record ID: {record_id}\n"
+                    f"Analytical Group: {self.selected_group}\n"
+                    f"Elements: {element_count}\n\n"
+                    f"Data saved to database."
+                )
+            else:
+                messagebox.showinfo(
+                    "Upload Complete",
+                    f"{len(self.element_entries)} elements uploaded successfully!"
+                )
+            
         except Exception as e:
-            messagebox.showerror("Error", f"Failed to collect data: {str(e)}")
+            messagebox.showerror(
+                "Upload Failed",
+                f"Failed to upload data to backend:\n\n{str(e)}\n\n"
+                f"Please ensure the backend server is running on http://localhost:8000"
+            )
     
     def on_ok_clicked(self):
         """Handler for OK button"""

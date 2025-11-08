@@ -1,0 +1,90 @@
+{
+  "records": [
+    {
+      "analytical_group": "LAS 2023",
+      "page": "element_information",
+      "ch_value": "22",
+      "elements": [
+        {
+          "ele_name": "Fe",
+          "analytical_range_min": "0.001",
+          "analytical_range_max": "99.999",
+          "asterisk": "*",
+          "chemic_ele": "FE",
+          "element": "Iron"
+        },
+        {
+          "ele_name": "C",
+          "analytical_range_min": "0.001",
+          "analytical_range_max": "5.000",
+          "asterisk": "",
+          "chemic_ele": "C",
+          "element": "Carbon"
+        },
+        {
+          "ele_name": "Si",
+          "analytical_range_min": "0.001",
+          "analytical_range_max": "10.000",
+          "asterisk": "*",
+          "chemic_ele": "SI",
+          "element": "Silicon"
+        },
+        {
+          "ele_name": "Mn",
+          "analytical_range_min": "0.001",
+          "analytical_range_max": "5.000",
+          "asterisk": "",
+          "chemic_ele": "MN",
+          "element": "Manganese"
+        },
+        {
+          "ele_name": "P",
+          "analytical_range_min": "0.001",
+          "analytical_range_max": "0.500",
+          "asterisk": "*",
+          "chemic_ele": "P",
+          "element": "Phosphorus"
+        }
+      ]
+    },
+    {
+      "analytical_group": "SS 2023",
+      "page": "element_information",
+      "ch_value": "22",
+      "elements": [
+        {
+          "ele_name": "Fe",
+          "analytical_range_min": "0.005",
+          "analytical_range_max": "95.000",
+          "asterisk": "*",
+          "chemic_ele": "FE",
+          "element": "Iron"
+        },
+        {
+          "ele_name": "Cr",
+          "analytical_range_min": "0.010",
+          "analytical_range_max": "30.000",
+          "asterisk": "*",
+          "chemic_ele": "CR",
+          "element": "Chromium"
+        },
+        {
+          "ele_name": "Ni",
+          "analytical_range_min": "0.010",
+          "analytical_range_max": "25.000",
+          "asterisk": "",
+          "chemic_ele": "NI",
+          "element": "Nickel"
+        },
+        {
+          "ele_name": "Mo",
+          "analytical_range_min": "0.005",
+          "analytical_range_max": "5.000",
+          "asterisk": "",
+          "chemic_ele": "MO",
+          "element": "Molybdenum"
+        }
+      ]
+    }
+  ]
+}

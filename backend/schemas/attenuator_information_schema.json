@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Attenuator Information Schema",
+  "description": "JSON schema for the Attenuator Information page data",
+  "type": "object",
+  "required": ["analytical_group", "page", "left_table", "right_table"],
+  "properties": {
+    "analytical_group": {
+      "type": "string",
+      "description": "Selected analytical group name",
+      "examples": ["LAS 2023", "SS 2023", "LA 2021"]
+    },
+    "page": {
+      "type": "string",
+      "const": "attenuator_information",
+      "description": "Page identifier"
+    },
+    "left_table": {
+      "type": "array",
+      "description": "Left table with attenuator data (typically 16 pre-filled rows)",
+      "items": {
+        "type": "object",
+        "required": ["element", "ele_value", "att_value"],
+        "properties": {
+          "element": {
+            "type": "string",
+            "description": "Element symbol (e.g., FE, C, SI)"
+          },
+          "ele_value": {
+            "type": "string",
+            "description": "Element wavelength or value (numeric string)",
+            "pattern": "^[0-9]*\\.?[0-9]*\\+?[0-9]*$"
+          },
+          "att_value": {
+            "type": "string",
+            "description": "Attenuator value (numeric string)",
+            "pattern": "^[0-9]+$"
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "right_table": {
+      "type": "array",
+      "description": "Right table with additional attenuator data (includes empty rows for user input)",
+      "items": {
+        "type": "object",
+        "required": ["element", "ele_value", "att_value"],
+        "properties": {
+          "element": {
+            "type": "string",
+            "description": "Element symbol (can be empty for user-added rows)"
+          },
+          "ele_value": {
+            "type": "string",
+            "description": "Element wavelength or value (can be empty)",
+            "pattern": "^[0-9]*\\.?[0-9]*\\+?[0-9]*$"
+          },
+          "att_value": {
+            "type": "string",
+            "description": "Attenuator value (numeric string)",
+            "pattern": "^[0-9]+$"
+          }
+        }
+      },
+      "minItems": 0
+    }
+  }
+}

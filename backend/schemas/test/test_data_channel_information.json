@@ -1,0 +1,120 @@
+{
+  "records": [
+    {
+      "analytical_group": "LAS 2023",
+      "page": "channel_information",
+      "channels": [
+        {
+          "ele_name": "Fe",
+          "w_lengh": "259.940",
+          "seq": "1",
+          "w_no": "1",
+          "interval_element": "Ar",
+          "interval_value": "0.015"
+        },
+        {
+          "ele_name": "Fe",
+          "w_lengh": "261.187",
+          "seq": "2",
+          "w_no": "2",
+          "interval_element": "Ar",
+          "interval_value": "0.020"
+        },
+        {
+          "ele_name": "C",
+          "w_lengh": "193.091",
+          "seq": "1",
+          "w_no": "3",
+          "interval_element": "Fe",
+          "interval_value": "0.025"
+        },
+        {
+          "ele_name": "Si",
+          "w_lengh": "251.611",
+          "seq": "1",
+          "w_no": "4",
+          "interval_element": "Fe",
+          "interval_value": "0.018"
+        },
+        {
+          "ele_name": "Si",
+          "w_lengh": "288.158",
+          "seq": "2",
+          "w_no": "5",
+          "interval_element": "Ar",
+          "interval_value": "0.012"
+        },
+        {
+          "ele_name": "Mn",
+          "w_lengh": "257.610",
+          "seq": "1",
+          "w_no": "6",
+          "interval_element": "Fe",
+          "interval_value": "0.022"
+        },
+        {
+          "ele_name": "P",
+          "w_lengh": "178.287",
+          "seq": "1",
+          "w_no": "7",
+          "interval_element": "Fe",
+          "interval_value": "0.030"
+        },
+        {
+          "ele_name": "S",
+          "w_lengh": "180.731",
+          "seq": "1",
+          "w_no": "",
+          "interval_element": "Fe",
+          "interval_value": "0.028"
+        }
+      ]
+    },
+    {
+      "analytical_group": "SS 2023",
+      "page": "channel_information",
+      "channels": [
+        {
+          "ele_name": "Cr",
+          "w_lengh": "267.716",
+          "seq": "1",
+          "w_no": "1",
+          "interval_element": "Fe",
+          "interval_value": "0.016"
+        },
+        {
+          "ele_name": "Cr",
+          "w_lengh": "283.563",
+          "seq": "2",
+          "w_no": "2",
+          "interval_element": "Ar",
+          "interval_value": "0.014"
+        },
+        {
+          "ele_name": "Ni",
+          "w_lengh": "231.604",
+          "seq": "1",
+          "w_no": "3",
+          "interval_element": "Fe",
+          "interval_value": "0.019"
+        },
+        {
+          "ele_name": "Mo",
+          "w_lengh": "202.030",
+          "seq": "1",
+          "w_no": "4",
+          "interval_element": "Fe",
+          "interval_value": "0.024"
+        },
+        {
+          "ele_name": "V",
+          "w_lengh": "292.402",
+          "seq": "1",
+          "w_no": "5",
+          "interval_element": "Ar",
+          "interval_value": "0.021"
+        }
+      ]
+    }
+  ]
+}

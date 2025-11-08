@@ -1,0 +1,106 @@
+{
+  "records": [
+    {
+      "analytical_group": "LAS 2023",
+      "analytical_method": "integration Mode",
+      "seq": {
+        "purge": {
+          "seq1": "30"
+        },
+        "source": {
+          "seq1": "3 Peak Spark",
+          "seq2": "Normal Spark",
+          "seq3": "Lamp",
+          "clean": "Cleaning"
+        },
+        "preburn": {
+          "seq1": "10",
+          "seq2": "15",
+          "seq3": "20",
+          "clean": "Pulse"
+        },
+        "integ": {
+          "seq1": "5",
+          "seq2": "10",
+          "seq3": "15",
+          "clean": "Pulse"
+        },
+        "clean": {
+          "value": "25",
+          "unit": "Pulse"
+        }
+      },
+      "level_out_information": {
+        "monitor_element": {
+          "element": "FE",
+          "value": "2.5",
+          "option1": "C",
+          "option2": "Si"
+        },
+        "h_level_percent": [
+          "95",
+          "95",
+          "95",
+          "90",
+          "90",
+          "90",
+          "85",
+          "85",
+          "85"
+        ],
+        "l_level_percent": ["5", "5", "5", "10", "10", "10", "15", "15", "15"]
+      }
+    },
+    {
+      "analytical_group": "SS 2023",
+      "analytical_method": "PDA + Integration",
+      "seq": {
+        "purge": {
+          "seq1": "35"
+        },
+        "source": {
+          "seq1": "Normal Spark",
+          "seq2": "Combined Spark",
+          "seq3": "3 Peak Spark",
+          "clean": "High Voltage Spark"
+        },
+        "preburn": {
+          "seq1": "12",
+          "seq2": "18",
+          "seq3": "22",
+          "clean": "Pulse"
+        },
+        "integ": {
+          "seq1": "6",
+          "seq2": "12",
+          "seq3": "18",
+          "clean": "Pulse"
+        },
+        "clean": {
+          "value": "30",
+          "unit": "Pulse"
+        }
+      },
+      "level_out_information": {
+        "monitor_element": {
+          "element": "C",
+          "value": "1.8",
+          "option1": "MN",
+          "option2": "P"
+        },
+        "h_level_percent": [
+          "92",
+          "92",
+          "92",
+          "88",
+          "88",
+          "88",
+          "82",
+          "82",
+          "82"
+        ],
+        "l_level_percent": ["8", "8", "8", "12", "12", "12", "18", "18", "18"]
+      }
+    }
+  ]
+}

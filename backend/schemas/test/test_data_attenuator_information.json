@@ -1,0 +1,100 @@
+{
+  "records": [
+    {
+      "analytical_group": "LAS 2023",
+      "page": "attenuator_information",
+      "left_table": [
+        {
+          "element": "Fe",
+          "ele_value": "0.5",
+          "att_value": "10"
+        },
+        {
+          "element": "Fe",
+          "ele_value": "1.0",
+          "att_value": "20"
+        },
+        {
+          "element": "C",
+          "ele_value": "0.1",
+          "att_value": "5"
+        },
+        {
+          "element": "Si",
+          "ele_value": "0.3",
+          "att_value": "8"
+        },
+        {
+          "element": "Mn",
+          "ele_value": "0.8",
+          "att_value": "15"
+        },
+        {
+          "element": "P",
+          "ele_value": "0.05",
+          "att_value": "3"
+        }
+      ],
+      "right_table": [
+        {
+          "element": "S",
+          "ele_value": "0.02",
+          "att_value": "2"
+        },
+        {
+          "element": "Cu",
+          "ele_value": "0.4",
+          "att_value": "12"
+        },
+        {
+          "element": "Al",
+          "ele_value": "0.25",
+          "att_value": "7"
+        }
+      ]
+    },
+    {
+      "analytical_group": "SS 2023",
+      "page": "attenuator_information",
+      "left_table": [
+        {
+          "element": "Cr",
+          "ele_value": "18.0",
+          "att_value": "50"
+        },
+        {
+          "element": "Ni",
+          "ele_value": "8.0",
+          "att_value": "35"
+        },
+        {
+          "element": "Mo",
+          "ele_value": "2.5",
+          "att_value": "25"
+        },
+        {
+          "element": "V",
+          "ele_value": "0.15",
+          "att_value": "6"
+        }
+      ],
+      "right_table": [
+        {
+          "element": "Ti",
+          "ele_value": "0.8",
+          "att_value": "18"
+        },
+        {
+          "element": "Nb",
+          "ele_value": "0.45",
+          "att_value": "14"
+        },
+        {
+          "element": "Co",
+          "ele_value": "0.20",
+          "att_value": "9"
+        }
+      ]
+    }
+  ]
+}

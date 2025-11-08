@@ -1,0 +1,175 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Analytical Condition Schema",
+  "description": "JSON schema for the Analytical Condition page data",
+  "type": "object",
+  "required": ["analytical_group", "analytical_method", "seq", "level_out_information"],
+  "properties": {
+    "analytical_group": {
+      "type": "string",
+      "description": "Selected analytical group name",
+      "examples": ["LAS 2023", "SS 2023", "LA 2021"]
+    },
+    "analytical_method": {
+      "type": "string",
+      "description": "Analytical method selection",
+      "enum": ["integration Mode", "PDA + Integration"]
+    },
+    "seq": {
+      "type": "object",
+      "required": ["purge", "source", "preburn", "integ", "clean"],
+      "properties": {
+        "purge": {
+          "type": "object",
+          "required": ["seq1"],
+          "properties": {
+            "seq1": {
+              "type": "string",
+              "description": "Purge duration (numeric string)",
+              "pattern": "^[0-9]+$"
+            }
+          }
+        },
+        "source": {
+          "type": "object",
+          "required": ["seq1", "seq2", "seq3", "clean"],
+          "properties": {
+            "seq1": {
+              "type": "string",
+              "enum": ["3 Peak Spark", "Normal Spark", "Combined Spark", "Arclike Spark", "Cleaning", "High Voltage Spark"]
+            },
+            "seq2": {
+              "type": "string",
+              "enum": ["Normal Spark", "Combined Spark", "Arclike Spark", "Cleaning", "High Voltage Spark", "AD OFFSET"]
+            },
+            "seq3": {
+              "type": "string",
+              "enum": ["Lamp", "3 Peak Spark", "Normal Spark", "Combined Spark", "Arclike Spark", "Cleaning"]
+            },
+            "clean": {
+              "type": "string",
+              "enum": ["Cleaning", "High Voltage Spark", "AD OFFSET", "ITG OFFSET", "MAIN OFFSET", "NOISE TEST"]
+            }
+          }
+        },
+        "preburn": {
+          "type": "object",
+          "required": ["seq1", "seq2", "seq3", "clean"],
+          "properties": {
+            "seq1": {
+              "type": "string",
+              "description": "Preburn SEQ1 duration (numeric string)",
+              "pattern": "^[0-9]+$"
+            },
+            "seq2": {
+              "type": "string",
+              "description": "Preburn SEQ2 duration (numeric string)",
+              "pattern": "^[0-9]+$"
+            },
+            "seq3": {
+              "type": "string",
+              "description": "Preburn SEQ3 duration (numeric string)",
+              "pattern": "^[0-9]+$"
+            },
+            "clean": {
+              "type": "string",
+              "const": "Pulse"
+            }
+          }
+        },
+        "integ": {
+          "type": "object",
+          "required": ["seq1", "seq2", "seq3", "clean"],
+          "properties": {
+            "seq1": {
+              "type": "string",
+              "description": "Integration SEQ1 duration (numeric string)",
+              "pattern": "^[0-9]+$"
+            },
+            "seq2": {
+              "type": "string",
+              "description": "Integration SEQ2 duration (numeric string)",
+              "pattern": "^[0-9]+$"
+            },
+            "seq3": {
+              "type": "string",
+              "description": "Integration SEQ3 duration (numeric string)",
+              "pattern": "^[0-9]+$"
+            },
+            "clean": {
+              "type": "string",
+              "const": "Pulse"
+            }
+          }
+        },
+        "clean": {
+          "type": "object",
+          "required": ["value", "unit"],
+          "properties": {
+            "value": {
+              "type": "string",
+              "description": "Clean duration (numeric string)",
+              "pattern": "^[0-9]+$"
+            },
+            "unit": {
+              "type": "string",
+              "const": "Pulse"
+            }
+          }
+        }
+      }
+    },
+    "level_out_information": {
+      "type": "object",
+      "required": ["monitor_element", "h_level_percent", "l_level_percent"],
+      "properties": {
+        "monitor_element": {
+          "type": "object",
+          "required": ["element", "value", "option1", "option2"],
+          "properties": {
+            "element": {
+              "type": "string",
+              "description": "Monitor element selection",
+              "enum": ["None", "FE", "C", "Si", "MN", "P", "S", "V", "CR"]
+            },
+            "value": {
+              "type": "string",
+              "description": "Monitor element value (auto-filled based on element, but user-editable)",
+              "pattern": "^[0-9]*\\.?[0-9]+$"
+            },
+            "option1": {
+              "type": "string",
+              "description": "Additional monitor element option 1",
+              "enum": ["None", "FE", "C", "Si", "MN", "P", "S", "V", "CR"]
+            },
+            "option2": {
+              "type": "string",
+              "description": "Additional monitor element option 2",
+              "enum": ["None", "FE", "C", "Si", "MN", "P", "S", "V", "CR"]
+            }
+          }
+        },
+        "h_level_percent": {
+          "type": "array",
+          "description": "High level percentages for SEQ1-3 (9 values)",
+          "items": {
+            "type": "string",
+            "pattern": "^[0-9]+$"
+          },
+          "minItems": 9,
+          "maxItems": 9
+        },
+        "l_level_percent": {
+          "type": "array",
+          "description": "Low level percentages for SEQ1-3 (9 values)",
+          "items": {
+            "type": "string",
+            "pattern": "^[0-9]+$"
+          },
+          "minItems": 9,
+          "maxItems": 9
+        }
+      }
+    }
+  }
+}
