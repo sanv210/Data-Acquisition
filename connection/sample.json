@@ -1,0 +1,14 @@
+{
+        "sequence_steps": [
+      {
+        "step_name": "ar.flush",
+        "purge": 2500
+      },
+      {
+        "step_name": "measurement time",
+        "purge": 1000        
+      }
+    ]
+    
+  
+}
