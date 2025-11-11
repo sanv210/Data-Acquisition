@@ -29,3 +29,9 @@ build/
 .pytest_cache/
 .mypy_cache/
 
+# Specific cached files
+frontend/pages/__pycache__/__init__.cpython-313.pyc
+frontend/pages/__pycache__/analytical_condition.cpython-313.pyc
+frontend/pages/__pycache__/attenuator_information.cpython-313.pyc
+frontend/utils/__pycache__/__init__.cpython-313.pyc
+frontend/utils/__pycache__/data_manager.cpython-313.pyc
