@@ -1,21 +1,30 @@
-"""Fetch DAQ backend bulk endpoints and write combined JSON.
+"""Fetch DAQ backend bulk and individual (by ID) endpoints and write combined JSON.
 
 This script requests these endpoints (defaults to localhost:8000):
+
+Bulk endpoints:
 - /api/attenuator-information/bulk
 - /api/channel-information/bulk
 - /api/element-information/bulk
 - /api/analytical-conditions/bulk
 
-It creates (or overwrites) a file named `attenuator_info.json` in the
-same folder as this script containing the collected `records` for each
-endpoint. If a request fails, the error is included in the output JSON
-under the corresponding key.
+Individual endpoints (by ID):
+- /api/attenuator-information/{id}
+- /api/channel-information/{id}
+- /api/element-information/{id}
+- /api/analytical-conditions/{id}
+
+Workflow:
+1. Fetch all bulk endpoints to get all records
+2. For each record returned, fetch the individual record by ID
+3. Combine all results in `attenuator_info.json`
 
 Run from the `connection` folder:
 python integration.py --base-url http://localhost:8000
 
-Assumptions made:
-- The file to write is named `information.json` (JSON extension added).
+Output:
+A JSON file containing bulk data and individual records retrieved by ID.
+If bulk fetch returns no records, individual endpoint fetching is skipped.
 """
 
 from __future__ import annotations
@@ -30,12 +39,24 @@ import requests
 
 
 DEFAULT_BASE_URL = "http://localhost:8000"
-OUTPUT_FILENAME = "information.json"
+OUTPUT_FILENAME = "attenuator_info.json"
 ENDPOINTS = {
-	"attenuator_information": "/api/attenuator-information/bulk",
-	"channel_information": "/api/channel-information/bulk",
-	"element_information": "/api/element-information/bulk",
-	"analytical_conditions": "/api/analytical-conditions/bulk",
+	"attenuator_information": {
+		"bulk": "/api/attenuator-information/bulk",
+		"by_id": "/api/attenuator-information",
+	},
+	"channel_information": {
+		"bulk": "/api/channel-information/bulk",
+		"by_id": "/api/channel-information",
+	},
+	"element_information": {
+		"bulk": "/api/element-information/bulk",
+		"by_id": "/api/element-information",
+	},
+	"analytical_conditions": {
+		"bulk": "/api/analytical-conditions/bulk",
+		"by_id": "/api/analytical-conditions",
+	},
 }
 
 
@@ -64,12 +85,42 @@ def fetch_endpoint(base_url: str, path: str, timeout: float = 5.0) -> Dict[str, 
 
 
 def collect_all(base_url: str) -> Dict[str, Any]:
+	"""Fetch bulk endpoints, then fetch individual records by ID.
+	
+	For each endpoint:
+	1. Fetch the bulk endpoint to get all records
+	2. For each record returned, fetch the individual record by ID
+	3. Store both bulk and individual results
+	"""
 	results: Dict[str, Any] = {}
-	for key, path in ENDPOINTS.items():
-		logging.info(f"Fetching {key} from {path}")
-		res = fetch_endpoint(base_url, path)
-		results[key] = res
+	
+	for endpoint_key, paths in ENDPOINTS.items():
+		logging.info(f"Fetching bulk {endpoint_key} from {paths['bulk']}")
+		bulk_res = fetch_endpoint(base_url, paths["bulk"])
+		
+		# Initialize result structure
+		results[endpoint_key] = {
+			"bulk": bulk_res,
+			"by_id": {}
+		}
+		
+		# If bulk fetch was successful and has records, fetch each by ID
+		if bulk_res.get("success") and bulk_res.get("records"):
+			records = bulk_res["records"]
+			logging.info(f"Retrieved {len(records)} {endpoint_key} record(s), fetching each by ID...")
+			
+			for record in records:
+				record_id = record.get("id")
+				if record_id:
+					individual_path = f"{paths['by_id']}/{record_id}"
+					logging.info(f"  Fetching {endpoint_key} ID {record_id}")
+					individual_res = fetch_endpoint(base_url, individual_path)
+					results[endpoint_key]["by_id"][record_id] = individual_res
+		else:
+			logging.warning(f"No records returned from bulk {endpoint_key} endpoint")
+	
 	return results
+
 
 
 def write_output_file(output_path: Path, payload: Dict[str, Any]) -> None:

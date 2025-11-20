@@ -12,3 +12,5 @@ mysql-connector-python
 # Load .env files
 python-dotenv
 
+# Serial communication
+pyserial
