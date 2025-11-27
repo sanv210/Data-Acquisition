@@ -1,0 +1,21 @@
+2025-11-27 15:58:19,509 - INFO - ============================================================
+2025-11-27 15:58:19,509 - INFO - DAQ System Starting
+2025-11-27 15:58:19,509 - INFO - ============================================================
+2025-11-27 15:58:19,512 - INFO - Starting backend server from C:\Users\jhaad\AppData\Local\Temp\_MEI23162\backend
+2025-11-27 15:58:19,512 - INFO - Command: C:\Users\jhaad\downloads\data-acquisition\dist\DAQ_System\DAQ_System.exe -m uvicorn main:app --host 127.0.0.1 --port 8000 --log-level info
+2025-11-27 15:58:19,584 - INFO - Backend process started
+2025-11-27 15:58:20,513 - WARNING - Backend may not have started properly, but continuing...
+2025-11-27 15:58:20,513 - INFO - Starting frontend from C:\Users\jhaad\AppData\Local\Temp\_MEI23162\frontend
+2025-11-27 15:58:56,482 - INFO - Interrupted by user
+2025-11-27 15:58:56,482 - INFO - Closing DAQ System...
+2025-11-27 15:58:56,483 - INFO - Stopping backend server...
+2025-11-27 15:58:56,483 - INFO - Backend stopped successfully
+2025-11-27 15:58:56,483 - INFO - DAQ System Stopped
+2025-11-27 15:59:17,491 - INFO - ============================================================
+2025-11-27 15:59:17,491 - INFO - DAQ System Starting
+2025-11-27 15:59:17,491 - INFO - ============================================================
+2025-11-27 15:59:17,521 - INFO - Starting backend server from C:\Users\jhaad\AppData\Local\Temp\_MEI108882\backend
+2025-11-27 15:59:17,521 - INFO - Command: C:\Users\jhaad\downloads\data-acquisition\dist\DAQ_System\DAQ_System.exe -m uvicorn main:app --host 127.0.0.1 --port 8000 --log-level info
+2025-11-27 15:59:17,699 - INFO - Backend process started
+2025-11-27 15:59:18,522 - WARNING - Backend may not have started properly, but continuing...
+2025-11-27 15:59:18,522 - INFO - Starting frontend from C:\Users\jhaad\AppData\Local\Temp\_MEI108882\frontend

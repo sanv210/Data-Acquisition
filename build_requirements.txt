@@ -1,0 +1,27 @@
+"""
+Build Requirements
+These are the packages needed to successfully build the .exe
+All backend requirements are included here
+"""
+
+# Core Framework
+fastapi==0.104.1
+uvicorn==0.24.0
+python-dotenv==1.0.0
+
+# Database
+sqlalchemy==2.0.23
+mysql-connector-python==8.2.0
+
+# API & Validation
+pydantic==2.5.0
+pydantic-core==2.14.1
+
+# HTTP Client
+requests==2.31.0
+
+# Build Tools
+pyinstaller==6.3.0
+
+# Optional: For better compression
+upx==1.2.4
