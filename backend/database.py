@@ -22,10 +22,21 @@ MYSQL_DB = os.getenv('MYSQL_DB', 'DAQ project')
 # 1. Connect to MySQL server (no DB) and create DB if not exists
 SERVER_URL = f"mysql+mysqlconnector://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}:{MYSQL_PORT}/"
 engine_tmp = create_engine(SERVER_URL, pool_pre_ping=True)
-with engine_tmp.connect() as conn:
-	conn.execute(text(f"CREATE DATABASE IF NOT EXISTS `{MYSQL_DB}`"))
-	conn.commit()
-engine_tmp.dispose()
+def ensure_database_exists(retries: int = 1):
+	"""Ensure the target MySQL database exists by connecting to the server
+	(without selecting a database) and issuing a CREATE DATABASE IF NOT EXISTS.
+
+	This function creates and disposes a short-lived engine so importing the
+	module does not attempt a network call. Call this from an application
+	startup hook so the app can start even when the DB is temporarily down.
+	"""
+	engine_tmp_local = create_engine(SERVER_URL, pool_pre_ping=True)
+	try:
+		with engine_tmp_local.connect() as conn:
+			conn.execute(text(f"CREATE DATABASE IF NOT EXISTS `{MYSQL_DB}`"))
+			conn.commit()
+	finally:
+		engine_tmp_local.dispose()
 
 # 2. Now connect to the target DB
 # Build the SQLAlchemy URL using the URL object so the database name is sent as

@@ -4,7 +4,7 @@ from sqlalchemy import text
 from sqlalchemy.orm import Session
 from typing import List, Optional
 
-from database import SessionLocal, engine, Base
+from database import SessionLocal, engine, Base, ensure_database_exists
 from models import (
     AnalyticalCondition,
     ElementInformation,
@@ -39,13 +39,25 @@ app = FastAPI(
 
 @app.on_event("startup")
 def on_startup():
-	"""Create any database tables defined via SQLAlchemy Base subclasses.
+    """Attempt to create the database (if missing) and ensure tables exist.
 
-	This ensures the DB (created earlier in database.py) has any tables
-	needed by the app. For now there are no model classes, so this is
-	a safe no-op but useful for future extensions.
-	"""
-	Base.metadata.create_all(bind=engine)
+    We call `ensure_database_exists()` here rather than at import time so the
+    application can start even when the MySQL server is temporarily unreachable.
+    Table creation is attempted and any errors are logged rather than raised so
+    the server doesn't crash the process on startup.
+    """
+    import logging
+
+    try:
+        # create DB if it doesn't exist (may raise if server unreachable)
+        ensure_database_exists()
+    except Exception as e:
+        logging.error(f"Database existence check failed at startup: {e}")
+
+    try:
+        Base.metadata.create_all(bind=engine)
+    except Exception as e:
+        logging.error(f"Failed to create tables at startup: {e}")
 
 
 def get_db():
