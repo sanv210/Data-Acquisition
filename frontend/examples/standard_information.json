@@ -1,0 +1,138 @@
+{
+    "analytical_group": "LAS 2023",
+    "page": "Standard_information",
+    "Boom": [
+        {
+            "element": "FE",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "C",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "SI",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "MN",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "P",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "S",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "CR",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "NI",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "MO",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "CU",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "V",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "TI",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "W",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "B",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "NB",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "CA",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "CO",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "SN",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "N",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "PB",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "AL",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        },
+        {
+            "element": "CE",
+            "lower": ".00000",
+            "upper": "100.00",
+            "trace": ".00000"
+        }
+    ]
+}
