@@ -1,0 +1,556 @@
+{
+    "analytical_group": "LAS 2023",
+    "page": "recalibration_information",
+    "recalibration": [
+        {
+            "element": "FE",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "",
+                    "Low": "",
+                    "K": ""
+                },
+                "target": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": "1.00000",
+                    "Beta": ".00000",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "C",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "5.5649",
+                    "Low": ".33665",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": "1.2128",
+                    "Beta": ".00050",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "SI",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "6.3415",
+                    "Low": ".30301   ",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": "1.2923",
+                    "Beta": "-.0209",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "MN",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "7.4023",
+                    "Low": ".18530",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": ".97737",
+                    "Beta": ".00898",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "P",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "5.8562",
+                    "Low": ".65000",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": "1.3119",
+                    "Beta": ".03858",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "S",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "9.0825",
+                    "Low": ".57711",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": "1.5130",
+                    "Beta": "-.0842",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "CR",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "6.1576",
+                    "Low": ".16359",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": ".99417",
+                    "Beta": ".00926",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "NI",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "6.1231",
+                    "Low": ".15520",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": "1.1285",
+                    "Beta": "-.0457",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "MO",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "6.8316",
+                    "Low": ".29543",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": "1.1721",
+                    "Beta": ".00723",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "CU",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "4.7121",
+                    "Low": ".56763",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": "1.1031",
+                    "Beta": "-.0016",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "V",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "7.2362",
+                    "Low": ".30971",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": ".97456",
+                    "Beta": "-.0011",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "TI",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": ".72583",
+                    "Low": ".17827",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": ".97868",
+                    "Beta": "-.0053",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "W",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "7.0491",
+                    "Low": "1.1734",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": "1.0472",
+                    "Beta": ".08491",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "B",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "8.0711",
+                    "Low": ".99338",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": "2.7750",
+                    "Beta": "-.1122",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "NB",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "7.1958",
+                    "Low": ".39575",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": ".99290",
+                    "Beta": ".00737",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "CA",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "2.2791",
+                    "Low": "1.7107",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": ".51524",
+                    "Beta": "1.0725",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "CO",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "6.5881",
+                    "Low": ".91824",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": ".97245",
+                    "Beta": "-.0017",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "SN",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "6.8065",
+                    "Low": "1.3209",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": "3.8565",
+                    "Beta": ".02841",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "N",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "2.6514",
+                    "Low": "1.8869",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": "2.1342",
+                    "Beta": "-.1606",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "PB",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "6.2101",
+                    "Low": "1.8370",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": ".97252",
+                    "Beta": "-.1134",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "AL",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "RN19/100",
+                    "Low": "RE12/322",
+                    "K": ""
+                },
+                "target": {
+                    "High": "5.9415",
+                    "Low": ".00777",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": ".87416",
+                    "Beta": "-.0027",
+                    "K": "1.00000"
+                }
+            }
+        },
+        {
+            "element": "CE",
+            "recalibration_info": {
+                "sample_name": {
+                    "High": "",
+                    "Low": "",
+                    "K": ""
+                },
+                "target": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "range": {
+                    "High": ".00000",
+                    "Low": ".00000",
+                    "K": ".00000"
+                },
+                "coefficient": {
+                    "Alpha": ".00000",
+                    "Beta": ".00000",
+                    "K": ".00000"
+                }
+            }
+        }
+    ]
+}
