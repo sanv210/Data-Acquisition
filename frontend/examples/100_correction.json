@@ -1,0 +1,94 @@
+{
+    "analytical_group": "LAS 2023",
+    "page": "100_correction",
+    "100_correction": [
+        {
+            "element": "FE",
+            "Y/N/I": "I"
+        },
+        {
+            "element": "C",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "SI",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "MN",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "P",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "S",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "CR",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "NI",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "MO",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "CU",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "V",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "TI",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "W",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "B",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "NB",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "CA",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "CO",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "SN",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "N",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "PB",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "AL",
+            "Y/N/I": "N"
+        },
+        {
+            "element": "CE",
+            "Y/N/I": "N"
+        }
+    ]
+}

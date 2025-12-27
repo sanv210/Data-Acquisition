@@ -228,7 +228,7 @@ class AnalyticalConditionPage:
         self.l_level_entries = []
         for col, val in enumerate(l_level_values):
             entry = tk.Entry(table_frame, width=8, font=('Arial', 8))
-            entry.insert(0, val)
+            entry.insert(0, val) 
             entry.grid(row=2, column=col+1, padx=1, pady=1)
             self.l_level_entries.append(entry)
         
