@@ -1,0 +1,28 @@
+{
+    "analytical_group": "LAS 2023",
+    "page": "control_chart_information",
+    "control_chart_information": [
+        { "element": "FE", "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "C",  "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "SI", "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "MN", "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "P",  "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "S",  "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "CR", "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "NI", "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "MO", "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "CU", "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "V",  "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "TI", "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "W",  "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "B",  "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "NB", "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "CA", "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "CO", "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "SN", "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "N",  "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "PB", "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "AL", "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } },
+        { "element": "CE", "target": ".00000", "control_range": { "L": ".00000", "H": "100.00" }, "scale_range": { "L": ".00000", "H": "100.00" } }
+    ]
+}
