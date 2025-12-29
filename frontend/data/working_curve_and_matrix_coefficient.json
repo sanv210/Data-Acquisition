@@ -1,0 +1,2354 @@
+{
+  "analytical_group": "LAS 2023",
+  "working_curve_and_matrix_coefficient": [
+    {
+      "element": "FE",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "1",
+        "std": ".000000000",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0000000000",
+          "c": "1.0000000000",
+          "d": ".0000000000"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "C",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "1",
+        "std": ".020695739",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0088422340",
+          "c": ".1848416970",
+          "d": "-.0747445500"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "SI",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "2",
+        "std": ".018475496",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0025359220",
+          "c": ".1948262860",
+          "d": "-.0678306200"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "L",
+          "element": "MN",
+          "coefficient": "-.00384140"
+        },
+        {
+          "D/L": "L",
+          "element": "MO",
+          "coefficient": "-.10041683"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "MN",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "2",
+        "std": ".018200181",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0107318280",
+          "c": ".1603959470",
+          "d": "-.02072242"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "P",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "2",
+        "std": ".001341406",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0008518370",
+          "c": ".0135458880",
+          "d": "-.00766173"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "L",
+          "element": "MO",
+          "coefficient": "-.00276708"
+        },
+        {
+          "D/L": "L",
+          "element": "CU",
+          "coefficient": "-.00567208"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "S",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "2",
+        "std": ".000956299",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": "-.00063079",
+          "c": ".0168483390",
+          "d": "-.00719664"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "L",
+          "element": "MN",
+          "coefficient": "-.00315524"
+        },
+        {
+          "D/L": "L",
+          "element": "MO",
+          "coefficient": "-.00297298"
+        },
+        {
+          "D/L": "L",
+          "element": "CU",
+          "coefficient": "-.01254114"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "CR",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "2",
+        "std": ".007660007",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0580431140",
+          "c": ".2038922360",
+          "d": "-.03138730"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "NI",
+      "working_curve": {
+        "divide": "2",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "-.95852"
+        },
+        "unit": "%",
+        "order": "2",
+        "std": ".010874737",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0545599670",
+          "c": ".2120749650",
+          "d": "-.02832205"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "MO",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "2",
+        "std": ".006242904",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0066277390",
+          "c": ".1138900920",
+          "d": "-.03465448"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "CU",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "2",
+        "std": ".004723706",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0015195950",
+          "c": ".1089344250",
+          "d": "-.05984329"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "L",
+          "element": "SI",
+          "coefficient": "-.00191920"
+        },
+        {
+          "D/L": "L",
+          "element": "NI",
+          "coefficient": "-.00970832"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "V",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "2",
+        "std": ".003878466",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0012342640",
+          "c": ".0829225220",
+          "d": "-.02999087"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "TI",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "2",
+        "std": ".000517854",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".1781982250",
+          "c": ".0801060640",
+          "d": "-.01875777"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "W",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "1",
+        "std": ".000000000",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0680621110",
+          "c": ".0000000000",
+          "d": "-.07727875"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "B",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "2",
+        "std": ".000713685",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0000518860",
+          "c": ".0020919660",
+          "d": "-.00200545"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "NB",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "2",
+        "std": ".001391601",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0000967510",
+          "c": ".1233497980",
+          "d": "-.05193959"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "CA",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "2",
+        "std": ".000000000",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0002611530",
+          "c": "-.00023574",
+          "d": ".000014991"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "L",
+          "element": "SI",
+          "coefficient": "-.01765743"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "CO",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "1",
+        "std": ".002822501",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0000000000",
+          "c": ".1478400340",
+          "d": "-.13807957"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "L",
+          "element": "CR",
+          "coefficient": "-.00222944"
+        },
+        {
+          "D/L": "L",
+          "element": "NI",
+          "coefficient": "-.00144535"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "SN",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "2",
+        "std": ".000000000",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0019039120",
+          "c": ".0097118900",
+          "d": "-.01338300"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "N",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "1",
+        "std": ".001039301",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0000000000",
+          "c": ".0089207850",
+          "d": "-.01555126"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "L",
+          "element": "CU",
+          "coefficient": "-.00556046"
+        },
+        {
+          "D/L": "L",
+          "element": "NI",
+          "coefficient": "-.00457912"
+        },
+        {
+          "D/L": "L",
+          "element": "CR",
+          "coefficient": "-.00251628"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "PB",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "1",
+        "std": ".001039301",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0000000000",
+          "c": ".0089207850",
+          "d": "-.01555126"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "L",
+          "element": "CR",
+          "coefficient": "-.00222944"
+        },
+        {
+          "D/L": "L",
+          "element": "NI",
+          "coefficient": "-.00144535"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "AL",
+      "working_curve": {
+        "divide": "2",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "-.09284"
+        },
+        "unit": "%",
+        "order": "2",
+        "std": ".002755073",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0312234580",
+          "c": ".1010576370",
+          "d": ".0057115570"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "L",
+          "element": "CU",
+          "coefficient": "-.03749890"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    },
+    {
+      "element": "CE",
+      "working_curve": {
+        "divide": "1",
+        "no.": "1",
+        "range": {
+          "h": ".00000",
+          "l": "100.00"
+        },
+        "unit": "%",
+        "order": "1",
+        "std": ".000000000",
+        "coefficient": {
+          "a": ".0000000000",
+          "b": ".0000000000",
+          "c": "1.0000000000",
+          "d": ".0000000000"
+        }
+      },
+      "matrix_coefficient": [
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        },
+        {
+          "D/L": "",
+          "element": "",
+          "coefficient": ".000000000"
+        }
+      ]
+    }
+  ]
+}

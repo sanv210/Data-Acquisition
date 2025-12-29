@@ -90,8 +90,8 @@ class Correction100Page:
 
     def on_pre(self):
         self.clear()
-        from pages.measurement_mode import RecalibrationInformationPage
-        RecalibrationInformationPage(self.parent_frame, self.selected_group, self.parent_app)
+        from pages.working_curve_and_matrix_coefficient import WorkingCurveMatrixPage
+        WorkingCurveMatrixPage(self.parent_frame, self.selected_group, self.parent_app)
 
     def on_print(self):
         messagebox.showinfo("Print","Printing 100% Correction")

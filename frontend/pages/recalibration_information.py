@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import json, os
 from utils.data_manager import DataManager
-from pages.correction import Correction100Page
 
 class RecalibrationInformationPage:
     def __init__(self, parent_frame, selected_group, parent_app=None):
@@ -190,7 +189,8 @@ class RecalibrationInformationPage:
         self.data_manager.save_measurement_mode(self.collect_data())
         for widget in self.parent_frame.winfo_children():
             widget.destroy()
-        Correction100Page(self.parent_frame, self.selected_group, self.parent_app)
+        from pages.working_curve_and_matrix_coefficient import WorkingCurveMatrixPage    
+        WorkingCurveMatrixPage(self.parent_frame, self.selected_group, self.parent_app)
 
     def on_pre(self):
         for widget in self.parent_frame.winfo_children():

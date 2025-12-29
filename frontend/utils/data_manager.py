@@ -302,3 +302,9 @@ class DataManager:
         os.makedirs(os.path.dirname(path),exist_ok=True)
         with open(path,"w") as f:
             json.dump(data,f,indent=2)
+            
+    def save_working_curve(self,data):
+        path=os.path.join(os.path.dirname(__file__),"../data/working_curve_and_matrix_coefficient.json")
+        os.makedirs(os.path.dirname(path),exist_ok=True)
+        with open(path,"w") as f:
+            json.dump(data,f,indent=2)
