@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import json
 from utils.data_manager import DataManager
-
+from pages.measurement_mode import MeasurementModePage
 
 class ChannelInformationPage:
     def __init__(self, parent_frame, selected_group, parent_app=None):
@@ -466,7 +466,7 @@ class ChannelInformationPage:
         self.save_current_data()
         for widget in self.parent_frame.winfo_children():
             widget.destroy()
-        messagebox.showinfo("Next", "End of form sequence!")
+        MeasurementModePage(self.parent_frame, self.selected_group, self)
         # This is the last page in the sequence
     
     def on_pre_clicked(self):
@@ -476,7 +476,7 @@ class ChannelInformationPage:
             widget.destroy()
         # Go back to Element Information
         from pages.element_information import ElementInformationPage
-        ElementInformationPage(self.root, self.selected_group, self.parent_app)
+        ElementInformationPage(self.parent_frame, self.selected_group, self.parent_app)
     
     def on_print_clicked(self):
         """Handler for Print button"""

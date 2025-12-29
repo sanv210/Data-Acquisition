@@ -2,9 +2,37 @@
     "analytical_group": "LAS 2023",
     "page": "working_curve_and_matrix_coefficient",
 
-    "boom":[
+    "working_curve_and_matrix_coefficient":[
         {
-            
+            "Ele. name" : "FE",
+            "working_curve":{
+                "divide" : "1",
+                "no." : "1",
+                "range" : { "h" : ".00000","l" : "100.00" },
+                "unit" : "%",
+                "order" : "1",
+                "std" : ".000000000",
+                "coefficient": { "a" : ".0000000000","b": ".0000000000","c": ".0000000000","d": ".0000000000" }
+            },
+            "matrix_coefficient":[
+                {"D/L" : "", "Ele. name" : "", "coefficient" : ".000000000"},
+                {"D/L" : "", "Ele. name" : "", "coefficient" : ".000000000"},
+                {"D/L" : "", "Ele. name" : "", "coefficient" : ".000000000"},
+                {"D/L" : "", "Ele. name" : "", "coefficient" : ".000000000"},
+                {"D/L" : "", "Ele. name" : "", "coefficient" : ".000000000"},
+                {"D/L" : "", "Ele. name" : "", "coefficient" : ".000000000"},
+                {"D/L" : "", "Ele. name" : "", "coefficient" : ".000000000"},
+                {"D/L" : "", "Ele. name" : "", "coefficient" : ".000000000"},
+                {"D/L" : "", "Ele. name" : "", "coefficient" : ".000000000"},
+                {"D/L" : "", "Ele. name" : "", "coefficient" : ".000000000"},
+                {"D/L" : "", "Ele. name" : "", "coefficient" : ".000000000"},
+                {"D/L" : "", "Ele. name" : "", "coefficient" : ".000000000"},
+                {"D/L" : "", "Ele. name" : "", "coefficient" : ".000000000"},
+                {"D/L" : "", "Ele. name" : "", "coefficient" : ".000000000"},
+                {"D/L" : "", "Ele. name" : "", "coefficient" : ".000000000"},
+                {"D/L" : "", "Ele. name" : "", "coefficient" : ".000000000"}
+            ]
+
         }
     ]
 
