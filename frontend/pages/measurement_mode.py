@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import json, os
 from utils.data_manager import DataManager
-
+from pages.recalibration_information import RecalibrationInformationPage
 
 PI_OPTIONS = ["P:PDA Mode", "I:Integ.Mode"]
 METHOD_OPTIONS = [
@@ -122,7 +122,10 @@ class MeasurementModePage:
     def on_next(self):
         self.data_manager.save_measurement_mode(self.collect_data())
         self.clear()
-        messagebox.showinfo("Next","Proceed to next page")
+        for widget in self.parent_frame.winfo_children():
+            widget.destroy()
+        RecalibrationInformationPage(self.parent_frame, self.selected_group, self.parent_app)
+
 
     def on_pre(self):
         for widget in self.parent_frame.winfo_children():

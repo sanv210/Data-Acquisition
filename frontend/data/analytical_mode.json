@@ -1,0 +1,67 @@
+{
+  "analytical_group": "LAS 2023",
+  "common": "",
+  "sample_index": {
+    "line1": "E 415:2021 / JIS G 1253:2002 / IS 8811:1998 (RA 2018)",
+    "line2": "[Sk-23-5212-P]"
+  },
+  "tabs": {
+    "cont": {
+      "display_layout": {
+        "row_of_ele": "",
+        "col_each_result": "",
+        "magn": ""
+      },
+      "display_item": [
+        "R value",
+        "S.D.",
+        "C.V."
+      ],
+      "print_item": [
+        "Each Result",
+        "R value",
+        "S.D.",
+        "C.V."
+      ],
+      "print_mode": "Manu"
+    },
+    "int": {
+      "display_layout": {
+        "row_of_ele": "",
+        "col_each_result": "",
+        "magn": ""
+      },
+      "display_item": [
+        "R value",
+        "S.D.",
+        "C.V."
+      ],
+      "print_item": [
+        "Each Result",
+        "R value",
+        "S.D.",
+        "C.V."
+      ],
+      "print_mode": "Manu"
+    },
+    "recal": {
+      "display_layout": {
+        "row_of_ele": "",
+        "col_each_result": "",
+        "magn": ""
+      },
+      "display_item": [
+        "R value",
+        "S.D.",
+        "C.V."
+      ],
+      "print_item": [
+        "Each Result",
+        "R value",
+        "S.D.",
+        "C.V."
+      ],
+      "print_mode": "Manu"
+    }
+  }
+}

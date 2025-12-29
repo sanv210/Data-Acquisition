@@ -1,7 +1,7 @@
 {
     "analytical_group": "LAS 2023",
     "page": "Standard_information",
-    "Boom": [
+    "standards": [
         {
             "element": "FE",
             "lower": ".00000",

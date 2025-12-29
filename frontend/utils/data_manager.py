@@ -4,6 +4,7 @@ Data Manager for storing and retrieving form data across pages
 import requests
 import json
 from typing import Optional, Dict, Any, List
+import os
 
 class DataManager:
     """Singleton class to manage data across all pages and handle API communication"""
@@ -253,3 +254,51 @@ class DataManager:
             return result.get('records', [])
         except requests.exceptions.RequestException as e:
             raise Exception(f"API Error: {str(e)}")
+    def save_measurement_mode(self, data):
+        """Save Measurement Mode data locally"""
+        try:
+            path = os.path.join(os.path.dirname(__file__), "../data/measurement_mode.json")
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+
+            with open(path, "w") as f:
+                json.dump(data, f, indent=2)
+
+            print("Measurement Mode data saved successfully")
+
+        except Exception as e:
+            print(f"Error saving measurement mode: {e}")
+
+    def save_recalibration_information(self, data):
+        path = os.path.join(os.path.dirname(__file__), "../data/recalibration_information.json")
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w") as f:
+            json.dump(data, f, indent=2)
+
+    def save_100_correction(self, data):
+        path = os.path.join(os.path.dirname(__file__), "../data/100_correction.json")
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path,"w") as f:
+            json.dump(data,f,indent=2)
+    
+    def save_standard_information(self, data):
+        path=os.path.join(os.path.dirname(__file__),"../data/standard_information.json")
+        os.makedirs(os.path.dirname(path),exist_ok=True)
+        with open(path,"w") as f:
+            json.dump(data,f,indent=2)
+
+    def save_display_and_printout_format(self,data):
+        path=os.path.join(os.path.dirname(__file__),"../data/display_and_printout_format.json")
+        os.makedirs(os.path.dirname(path),exist_ok=True)
+        with open(path,"w") as f:
+            json.dump(data,f,indent=2)  
+    
+    def save_master_curve_information(self,data):
+        path=os.path.join(os.path.dirname(__file__),"../data/master_curve_information.json")
+        os.makedirs(os.path.dirname(path),exist_ok=True)
+        with open(path,"w") as f:
+            json.dump(data,f,indent=2)
+    def save_analytical_mode(self,data):
+        path=os.path.join(os.path.dirname(__file__),"../data/analytical_mode.json")
+        os.makedirs(os.path.dirname(path),exist_ok=True)
+        with open(path,"w") as f:
+            json.dump(data,f,indent=2)

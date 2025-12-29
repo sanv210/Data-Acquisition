@@ -1,0 +1,203 @@
+{
+  "analytical_group": "LAS 2023",
+  "measurements": [
+    {
+      "element": "FE",
+      "P/I": "P:PDA Mode",
+      "method": "0:Integration",
+      "M": "00",
+      "N": "00",
+      "I": "",
+      "area": "T:Total Area"
+    },
+    {
+      "element": "C",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "T:Total Area"
+    },
+    {
+      "element": "SI",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "T:Total Area"
+    },
+    {
+      "element": "MN",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "T:Total Area"
+    },
+    {
+      "element": "P",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "S:Spark Area"
+    },
+    {
+      "element": "S",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "S:Spark Area"
+    },
+    {
+      "element": "CR",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "T:Total Area"
+    },
+    {
+      "element": "NI",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "T:Total Area"
+    },
+    {
+      "element": "MO",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "T:Total Area"
+    },
+    {
+      "element": "CU",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "T:Total Area"
+    },
+    {
+      "element": "V",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "T:Total Area"
+    },
+    {
+      "element": "TI",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "S:Spark Area"
+    },
+    {
+      "element": "W",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "T:Total Area"
+    },
+    {
+      "element": "B",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "S:Spark Area"
+    },
+    {
+      "element": "NB",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "T:Total Area"
+    },
+    {
+      "element": "CA",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "A:Arc Area"
+    },
+    {
+      "element": "CO",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "T:Total Area"
+    },
+    {
+      "element": "SN",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "T:Total Area"
+    },
+    {
+      "element": "N",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "T:Total Area"
+    },
+    {
+      "element": "PB",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "A:Arc Area"
+    },
+    {
+      "element": "AL",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "A:Arc Area"
+    },
+    {
+      "element": "CE",
+      "P/I": "P:PDA Mode",
+      "method": "9:Interval integration",
+      "M": "20",
+      "N": "80",
+      "I": "",
+      "area": "T:Total Area"
+    }
+  ]
+}
