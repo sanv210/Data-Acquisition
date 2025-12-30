@@ -1,8 +1,10 @@
-
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy import text
 from sqlalchemy.orm import Session
 from typing import List, Optional
+import serial
+from pydantic import BaseModel
+import time
 
 from database import SessionLocal, engine, Base, ensure_database_exists
 from models import (
@@ -61,16 +63,16 @@ def on_startup():
 
 
 def get_db():
-	db = SessionLocal()
-	try:
-		yield db
-	finally:
-		db.close()
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
 
 
 @app.get("/")
 def read_root():
-	return {"message": "DAQ API running"}
+    return {"message": "DAQ API running"}
 
 
 @app.get("/db")
@@ -515,8 +517,90 @@ def get_attenuator_information_by_id(
     return AttenuatorInformationResponse.model_validate(record)
 
 
-if __name__ == "__main__":
-	import uvicorn
+# --- CONSTANTS ---
+SERIAL_PORT = "COM6"  # Updated to match your working script
+BAUD_RATE = 115200
+CONTROL_HEADER = 0xFF
+ATT_STEP = 0.5
 
-	uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+# Map Element Strings to IDs (2-bit)
+ELEMENT_CODES = {
+    "Fe": 0b10,
+    "Ni": 0b01,
+    "Cr": 0b00
+}
 
+# --- HELPER FUNCTIONS ---
+def quantize_att(db: float) -> int:
+    """Converts dB value to 6-bit integer (0-63) based on 0.5 step."""
+    return max(0, min(round(db / ATT_STEP), 63))
+
+def build_port_value(element: str, attenuation_db: float) -> int:
+    """Packs Element ID (2 bits) and Attenuation (6 bits) into one byte."""
+    # Default to 0b00 if element not found, or handle error
+    code = ELEMENT_CODES.get(element, 0b00) 
+    e = code << 6
+    a = quantize_att(attenuation_db)
+    return e | a
+
+def build_time_value(ms: int) -> int:
+    """Scales time (ms) to a 1-byte value (max 255)."""
+    return min(ms // 10, 255)
+
+# --- API MODEL ---
+class TestCommand(BaseModel):
+    element: str    # e.g., "Fe"
+    value: float    # Interpreted as Attenuation (dB) e.g., 77.0
+
+# --- ENDPOINT ---
+@app.post("/api/test-hardware")
+def test_hardware_connection(command: TestCommand):
+    """
+    Directly converts input using the 'Port Value' bitwise logic and sends to Serial.
+    """
+    try:
+        # 1. Logic Phase: Prepare the 3 Bytes
+        # We assume a default delay since the frontend might not provide it yet
+        DEFAULT_DELAY_MS = 100 
+
+        port_value = build_port_value(command.element, command.value)
+        time_value = build_time_value(DEFAULT_DELAY_MS)
+        
+        # Create the byte array: [Header, PortValue, TimeValue]
+        payload = bytes([CONTROL_HEADER, port_value, time_value])
+        
+        hex_string = payload.hex().upper()
+        status_msg = (
+            f"Element={command.element} | Att={command.value}dB | Delay={DEFAULT_DELAY_MS}ms -> "
+            f"Sent Bytes: 0x{hex_string} "
+            f"(PortVal: {port_value:08b})"
+        )
+        print(f"HARDWARE TEST: {status_msg}")
+
+        # 2. Transmission Phase
+        # Using the exact logic from your working script
+        with serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=1) as ser:
+            # IMPORTANT: Wait for Arduino reset behavior
+            time.sleep(2) 
+            
+            ser.write(payload)
+            ser.flush()
+
+        return {
+            "success": True, 
+            "message": f"Sent sequence 0x{hex_string} to hardware!",
+            "debug": status_msg
+        }
+
+    except KeyError:
+        return {
+            "success": False,
+            "message": "Invalid Element Code",
+            "error": f"Element '{command.element}' not found in configuration."
+        }
+    except Exception as e:
+        return {
+            "success": False, 
+            "message": "Hardware Error",
+            "error": str(e)
+        }
